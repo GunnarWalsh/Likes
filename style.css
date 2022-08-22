@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+}
+.navbox{
+    background-color: black;
+    width: 62%;
+    display: flex;
+    color: white;
+
+}
+h1{
+    margin: 10px;
+}
+
+.some-user, .some-user-1{
+    /* width: 800px; */
+    border: 2px solid black;
+    height: 150px;
+    margin: 20px;
+    margin-right: 0%;
+}
+.some-user-1{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.some-user{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.sidecol{
+    flex: 1;
+    border: 2px solid black;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+.user-pic{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+}
+.blank{
+    flex: 1;
+    /* border: 2px solid black; */
+    margin: 20px 0px;
+}
+
+.Na-Li-Bu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name{
+    font-size: larger;
+    padding-right: 100px;
+}
+.name-long{
+    font-size: larger;
+    padding-right: 90px;
+}
+.filler{
+    display: flex;
+    margin: 20px;
+}
+#likes, .likes2, .likes3{
+    margin: 20px;
+}
+.like-area{
+    display: flex;
+}
+.like-button{
+    background-color: #ffd966;
+    box-shadow: 3px 3px 3px black;
+    font-size: larger;
+    height: 40px;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+.flexedcolumn{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+}
